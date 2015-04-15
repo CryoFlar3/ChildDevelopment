@@ -13,10 +13,10 @@ public class MilestoneActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_milestone);
 
-        loadPage();
+        //loadPage();
     }
 
-    private void loadPage(String choice, String){
+    private void loadPage(int choice){
 
     }
 

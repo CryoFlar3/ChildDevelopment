@@ -33,7 +33,7 @@ public class PrematureActivity extends ActionBarActivity {
     }
 
     private void milestonePage(String date) {
-        Intent intent = new Intent(this, PrematureActivity.class);
+        Intent intent = new Intent(this, MilestoneActivity.class);
         intent.putExtra(getString(R.string.early), date);
         startActivity(intent);
     }
